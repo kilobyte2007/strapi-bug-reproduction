@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_atom_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "blue",
+        "black",
+        "white",
+        "navy",
+        "transparent"
+      ],
+      "default": "blue",
+      "required": true
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "large",
+      "required": true
+    },
+    "rounded": {
+      "type": "boolean",
+      "default": true
+    },
+    "external": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "href": {
+      "type": "string"
+    },
+    "landingPage": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::landing-page.landing-page"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_component_value_toggle_values",
+  "info": {
+    "displayName": "Toggle Value",
+    "icon": "grin-tongue-wink"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}

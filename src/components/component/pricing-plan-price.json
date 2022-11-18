@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_pricing_plan_prices",
+  "info": {
+    "displayName": "Pricing Plan Price",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "visitors": {
+      "type": "integer"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

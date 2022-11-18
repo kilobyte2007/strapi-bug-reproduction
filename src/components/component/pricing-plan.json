@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_component_pricing_plans",
+  "info": {
+    "displayName": "Pricing Plan",
+    "icon": "greater-than",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.pricing-plan-price"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.pricing-plan-feature"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atom.button"
+    },
+    "mostPopular": {
+      "type": "boolean",
+      "default": false
+    },
+    "yearlyDiscount": {
+      "type": "integer",
+      "default": 20,
+      "max": 100,
+      "min": 0
+    }
+  }
+}

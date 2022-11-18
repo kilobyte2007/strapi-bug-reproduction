@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_atom_tags",
+  "info": {
+    "displayName": "Tag",
+    "icon": "book-medical"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string"
+    }
+  }
+}

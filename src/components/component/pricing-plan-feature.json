@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_pricing_plan_features",
+  "info": {
+    "displayName": "Pricing Plan Feature",
+    "icon": "fill-drip",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

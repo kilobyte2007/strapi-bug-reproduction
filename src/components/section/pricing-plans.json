@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_pricing_plans",
+  "info": {
+    "displayName": "Pricing Plans",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "toggle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.toggle"
+    },
+    "plans": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.pricing-plan"
+    }
+  }
+}
